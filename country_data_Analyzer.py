@@ -8,31 +8,32 @@ while(True):
                 print(nameOfCountry["name"])
         case '2':
             user=input("\nenter continent name:\n")
-            for c in countries:
-                if c["continent"].lower()== user.lower():
-                    print(c["name"]," -> ",c["capital"])
+            for nameOfCountry in countries:
+                if nameOfCountry["continent"].lower()== user.lower():
+                    print(nameOfCountry["name"]," -> ",nameOfCountry["capital"])
         case '3':
             print("\ncountry population more than 10 million\n")
-            for n in countries:
-                if n['population']>10000000:
-                    print(n["name"],"-> ",n["population"])
+            for nameOfCountry in countries:
+                if nameOfCountry['population']>10000000:
+                    print(nameOfCountry["name"],"-> ",nameOfCountry["population"])
         case '4':
             print("\nmost populated country\n")
             most=countries[0]['population']
             name=countries[0]['name']
-            for j in countries:
-                if most<j['population']:
-                    most=j['population']
-                    name=j['name']
+            for nameOfCountry in countries:
+                if most<nameOfCountry['population']:
+                    most=nameOfCountry['population']
+                    name=nameOfCountry['name']
             print(name," -> ",most)
         case '5':
             print("\nthe top 5 populated country are\n")
             top=sorted(countries,key=lambda x : x['population'],reverse=True)
-            for i in top[:5]:
-                print(i['name']," -> ",i['population'])
+            for nameOfCountry in top[:5]:
+                print(nameOfCountry['name']," -> ",nameOfCountry['population'])
         case '6':
             print("thank you!")
             break
     
 
     
+
