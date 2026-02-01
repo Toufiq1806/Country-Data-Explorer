@@ -17,6 +17,10 @@ A beginner-friendly Python mini project built after completing
 - `sorted()` with `key` and `lambda`
 - Match-case (Python 3.10+)
 - Modular programming
+## 📂 Project Structure
+country_data_Analyzer.py
+country_data_set.py
+README.md
 
 ## ▶ How to Run
 ```bash
@@ -25,3 +29,4 @@ python country_data_Analyzer.py
 Author
 
 Mohamed Toufiq
+
