@@ -14,8 +14,7 @@ A beginner-friendly Python mini project built after completing
 - Lists & Dictionaries
 - Loops
 - Conditional statements
-- `sorted()` with `key` and `lambda`
-- Match-case (Python 3.10+)
+- `sorted()` with `key` and `lambda`
 - Modular programming
 📂 Project Structure
 country_data_Analyzer.py
